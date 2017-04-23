@@ -1,0 +1,114 @@
+body, header, p, nav, a, div, aside, form, label, input, select, option, textaea, h1, h2, h4, img, ul, li, ol{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(222,222,222);
+}
+header{
+    background-color: rgb(51,51,51);
+    width: 100%;
+}
+header img{
+    height: 50px;
+}
+header nav{
+    float: right;
+    color: rgb(255,255,255);
+
+}
+a:hover{
+    color: rgb(200,200,200);
+}
+.wrapper{
+    background-color: rgb(222,222,222);
+    width: 100%;
+}
+.text, .imgList, .last{
+    box-shadow: 2px rgb(160,160,160);
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(222,222,222);
+    margin-right: 590px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.last{
+    margin-bottom: 20px;
+}
+ul, ol{
+    padding-left: 20px;
+}
+h2{
+    color: rgb(160,160,160);
+}
+h4{
+    color: rgb(180,180,180);
+}
+aside{
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(222,222,222);
+    width: 500px;
+    margin-right: 20px;
+    box-shadow: 2px rgb(160,160,160);
+    float: right;
+    padding: 20px;
+}
+form p{
+    color: rgb(233,233,233);
+    padding-left: 141px;
+    padding-bottom: 10px;
+}
+form label{
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    margin-right: 10px;
+    left: 25%;
+}
+textarea{
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+}
+input[type=submit]{
+    border: 1px solid rgb(51,85,208);
+    border-radius: 5px;
+    background-color: rgb(51,85,208);
+    color: rgb(255,255,255);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.imgLi{
+    border: 1px solid rgb(222,222,222);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    width: 13%;
+    display: inline-block;
+}
+.imgLi img{
+    height: 100%;
+    width: 100%;
+}
+table{
+    border: 1px solid rgb(200,200,200);
+    width: 100%;
+}
+thead{
+    background-color: rgb(180,180,180);
+}
+tfoot{
+    background-color: rgb(222,222,222);
+}
+footer {
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+}
